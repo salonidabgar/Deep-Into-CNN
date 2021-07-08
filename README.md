@@ -49,6 +49,8 @@ Find in [PyTorch](W2-3/PyTorch) : W2-3.
 ### Hackathon 1
 June 1 - June 30 :  
 https://www.kaggle.com/c/tabular-playground-series-jun-2021
+
+Find Sample Submission [Here](W2-3/Hackathon1.ipynb)
 ### Week 2-3: Convolutional Neural Networks
 
 #### Readings
@@ -69,3 +71,56 @@ https://pytorch.org/tutorials/beginner/basics/intro.html
 #### Practice Material
 
 Find in [W3 Folder](W3)
+
+### Paper 1 Implementation
+Choose Any 1 of following:
+1. AlexNet:  
+https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+2. VGG:  
+https://arxiv.org/pdf/1409.1556v6.pdf
+3. Inception(GoogLeNet)*:  
+https://arxiv.org/pdf/1409.4842v1.pdf
+4. Xception*:  
+https://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf
+5. ResNet*:  
+https://arxiv.org/pdf/1512.03385v1.pdf  
+
+(* Recommended)
+
+#### Supplement Material
+1. Inception Module:  
+https://towardsdatascience.com/deep-learning-understand-the-inception-module-56146866e652
+2. Separable Convolutions:  
+https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728
+3. Implementation of Xception :
+Use `groups` argument of conv2d for separating channels (i.e. for Depthwise Separable Convolution ):  
+https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html
+
+### Hackathon 2
+Based on following Dataset:  
+https://www.kaggle.com/gpiosenka/100-bird-species
+
+### Week 4-5: Optimization
+
+#### Readings
+
+1. Visualizing MNIST (Casual Reading, Enjoy Animations):   
+http://colah.github.io/posts/2014-10-Visualizing-MNIST/
+
+2. Optimizers: Only Gradient Descent Variations, Adam and RMSProp:  
+https://ruder.io/optimizing-gradient-descent/
+
+3. SGD with Momentum(Mathematical,For future reference)  
+https://distill.pub/2017/momentum/
+
+4. Weight Initialization:  
+https://towardsdatascience.com/weight-initialization-techniques-in-neural-networks-26c649eb3b78
+
+5. Batch Norm :  
+https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338
+
+6. Overfitting, Regularization, Hyper-parameter tuning :  
+http://neuralnetworksanddeeplearning.com/chap3.html#how_to_choose_a_neural_network%27s_hyper-parameters
+
+7. Complete Reference(Videos):  
+https://www.youtube.com/playlist?list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc
